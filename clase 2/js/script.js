@@ -19,5 +19,20 @@ if (edad < 6) {
 }
 */
 
-let valor = 12;
-let comparacion = (valor==12);
+/*let clima = "Nublado";
+let lluvia = "No";
+if (clima == "Soleado" || lluvia == "No") {
+  alert("El clima está soleado");
+}
+*/
+
+/*let nombreApellido = prompt("Ingrese su nombre y apellido:");
+if (
+  nombreApellido != "" &&
+  (nombreApellido == "EMA" || (nombreApellido = "ema"))
+) {
+  alert("Bienvenido " + nombreApellido);
+} else {
+  alert("Nombre inválido.");
+}
+*/
