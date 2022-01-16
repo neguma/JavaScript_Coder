@@ -20,7 +20,6 @@ const personal = new Persona(
   parseInt(prompt("Ingrese su número de teléfono:"))
 );
 
-
 function packageSelect(package, days) {
   package = prompt(
     `Bienvenido a la Estancia Clavero, ${personal.name}. Tiene a su disposición 3 paquetes para contratar: basic ($4550/dia), premium ($5675/dia) y excelsior ($7890). Para continuar, ingrese uno de los 3 paquetes mencionados:`
@@ -68,4 +67,6 @@ function packageSelect(package, days) {
 }
 
 packageSelect();
-alert(`Gracias por su compra. Nos estaremos comunicando a su teléfono ${personal.phone} en breve!`)
+alert(
+  `Gracias por su compra. Nos estaremos comunicando a su teléfono ${personal.phone} en breve!`
+);
