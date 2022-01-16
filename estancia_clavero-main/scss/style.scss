@@ -1,0 +1,31 @@
+@import "variables";
+@import "head";
+@import "video";
+@import "home";
+@import "paquetes";
+@import "galeria";
+@import "contacto";
+@import "mapa";
+@import "footer";
+@import "mediaqueries";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Varela+Round&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.typeSeriff {
+    font-family: $seriff;
+    color: white;
+    font-size: 40px;
+}
+
+.typeSans {
+    font-family: $sans;
+    color: white;
+    font-size: 15px;
+}
+
+.bgBlack {
+    background-color: $bg-Black;
+}

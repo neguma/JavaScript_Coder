@@ -1,0 +1,68 @@
+#seccionPaquetes {
+    background-image: url('../css/assets/fondob4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#contenedorPaquetes {
+    .title2 {
+        font-style: italic;
+    }
+    .card {
+        padding: 35px;
+        margin-bottom: 5rem;
+        border-radius: 0px;
+        background-color: transparent;
+        border: none;
+        transition: 200ms linear;
+        .card-body {
+            border-radius: 10px;
+            .card-title {
+                font-size: 2em;
+                border-bottom: 1px solid #fff;
+                font-weight: 700;
+            }
+            .card-title2 {
+                text-align: center;
+                font-size: 2em;
+                transition: 200ms linear;
+                width: 100%;
+                margin: auto;
+                background-color: $bg-Black;
+                border-radius: 10px;
+            }
+            a {
+                margin: auto;
+                font-size: 1.2em;
+                font-weight: 700;
+            }
+        }
+        li {
+            background-color: transparent;
+            font-size: 1.2em;
+        }
+        img {
+            border-radius: 10px;
+        }
+    }
+    .card:hover {
+        background-color: $col1;
+        border-radius: 10px;
+        .card-title {
+            color: black;
+            border-bottom: 1px solid #000;
+        }
+        .card-title2 {
+            background-color: $bg-Black;
+            color: white;
+        }
+        .card-text {
+            color: #000;
+        }
+        .list-group-item {
+            color: black;
+        }
+    }
+}

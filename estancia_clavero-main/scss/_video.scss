@@ -1,0 +1,37 @@
+.panel-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 75%;
+    margin-top: auto;
+    padding-top: 3vh;
+    height: calc((100vh + 60px) - 25vw);
+    position: relative;
+}
+
+.panel-video video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.panel-video .panel-video--espacio {
+    margin-bottom: 3.75rem;
+}
+
+.panel-video .panel-video__titulo {
+    position: absolute;
+    left: 50%;
+    top: 46%;
+    transform: translate(-50%, -35px);
+    margin: 0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    opacity: 0;
+    width: 100%;
+    text-transform: none;
+    font-size: 2.875em;
+    line-height: 1.0285;
+    text-align: center;
+    z-index: 1;
+}
