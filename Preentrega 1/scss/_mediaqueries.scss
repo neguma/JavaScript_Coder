@@ -1,0 +1,358 @@
+//HEAD
+@media all and (max-width:768px) {
+    .navbar {
+        .navbar-logo {
+            img {
+                width: 10rem;
+            }
+        }
+    }
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media all and (min-width:768px) {
+    .navbar {
+        .navbar-logo {
+            img {
+                width: 10rem;
+            }
+        }
+    }
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media all and (min-width:992px) {
+    .navbar {
+        .navbar-logo {
+            img {
+                width: 10rem;
+            }
+        }
+    }
+    .navbar-brand {
+        display: block;
+    }
+}
+
+//
+// HOME
+@media all and(max-width:560px) {
+    #seccionPrincipal {
+        .title.bgBlack p {
+            font-size: 1.9em;
+        }
+        .cardNosotros {
+            .tituloNosotros {
+                width: 75%;
+                font-size: 1.9em;
+            }
+            .textoNosotros {
+                width: 75%;
+                font-size: 0.8em;
+            }
+        }
+        #servicios {
+            div.title2 p {
+                font-size: 1.9em;
+                width: 100%;
+            }
+        }
+    }
+    #activities {
+        div.title2 p {
+            font-size: 1.9em;
+        }
+        .actividades {
+            padding: 10px;
+            ul li {
+                list-style-type: none;
+                font-size: 1.4em;
+                padding: 10px;
+            }
+        }
+        .card-body {
+            .card-text {
+                font-size: 1em;
+            }
+        }
+    }
+}
+
+@media all and(max-width:960px) {
+    .boxInfo {
+        display: flex;
+        flex-direction: column;
+        .box {
+            width: 100%;
+        }
+    }
+    .cardNosotros {
+        display: flex;
+        flex-direction: column;
+        .tarjeta {
+            .tituloNosotros {
+                font-size: 0.7em;
+                margin: auto;
+                width: 100%;
+            }
+        }
+    }
+    #servicios {
+        div.title2 p {
+            font-size: 2.2em;
+            width: 100%;
+        }
+    }
+    #activities {
+        div.title2 p {
+            font-size: 2.3em;
+        }
+        .actividades {
+            padding: 10px;
+            ul li {
+                list-style-type: none;
+                font-size: 1.2em;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+//
+// SECCION GALERIA
+@media all and (min-width:1280px) {
+    #contenedorImagenes {
+        .title2 {
+            font-size: 1.8em;
+            width: 100%;
+        }
+        h2 {
+            font-size: 1.8em;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #contenedorImagenes {
+        .title2 {
+            font-size: 1.3em;
+            width: 100%;
+        }
+        h2 {
+            font-size: 1.3em;
+        }
+    }
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+//
+// SECCION SERVICIOS
+@media all and(min-width:360px) {
+    #contenedorPaquetes {
+        .title2 p {
+            font-size: 1.7em;
+        }
+        .card-body {
+            width: 100%;
+        }
+        p.typeSans.title2 {
+            font-size: 0.9em;
+        }
+    }
+}
+
+@media all and(min-width:560px) {
+    #contenedorPaquetes {
+        .title2 p {
+            font-size: 2em;
+        }
+        .card-body {
+            width: 100%;
+        }
+        p.typeSans.title2 {
+            font-size: 1.3em;
+        }
+    }
+}
+
+@media all and(min-width:769px) {
+    #contenedorPaquetes {
+        .title2 p {
+            font-size: 3em;
+        }
+        .divCards {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+        }
+    }
+}
+
+@media all and(max-width:768px) {
+    #contenedorPaquetes {
+        .divCards {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+        }
+    }
+}
+
+@media all and(min-width:960px) {
+    .divCards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+//
+// SECCION CONTACTO
+@media all and (min-width: 360px) {
+    #seccionContacto {
+        .title3 {
+            font-size: 1.3em;
+            width: 100%;
+        }
+        form {
+            width: 100%;
+            font-size: 0.8em;
+            .form-group {
+                width: 50%;
+                margin: auto;
+                .form-control {
+                    font-size: 0.8em;
+                }
+            }
+        }
+        .mapouter {
+            .title3 {
+                font-size: 1.3em;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    #seccionContacto {
+        .title3 {
+            width: 100%;
+            font-size: 1.2em;
+        }
+        form {
+            width: 100%;
+            font-size: 1em;
+            .form-group {
+                width: 50%;
+                margin: auto;
+                .form-control {
+                    font-size: 1em;
+                }
+            }
+        }
+        .mapouter {
+            .title3 {
+                font-size: 1.5em;
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 1280px) {
+    #seccionContacto {
+        .title3 {
+            width: 100%;
+            font-size: 1.8em;
+        }
+        form {
+            width: 100%;
+            font-size: 1em;
+            .form-group {
+                width: 30%;
+                margin: auto;
+            }
+        }
+        .mapouter {
+            .title3 {
+                font-size: 1.8em;
+                width: 100%;
+            }
+        }
+    }
+}
+
+//
+//VIDEO BANNER
+@media (min-width: 25em) {
+    .panel-video__titulo {
+        max-width: 24ch;
+    }
+}
+
+@media screen and (min-width: 31.25em) {
+    .panel-video__titulo {
+        font-size: calc(2.875em + 1.625 * (100vw - 31.25em) / 41.875);
+    }
+}
+
+@media screen and (min-width: 73.125em) {
+    .panel-video__titulo {
+        font-size: 4.5em;
+    }
+}
+
+@media screen and (min-width: 31.25em) {
+    .panel-video__titulo {
+        font-size: calc(2.875em + 2.125 * (100vw - 31.25em) / 41.875);
+    }
+}
+
+@media screen and (min-width: 73.125em) {
+    .panel-video__titulo {
+        font-size: 5em;
+    }
+}
+
+//
+// FOOTER
+@media all and(min-width:360px) {
+    .foot {
+        .footerText {
+            position: relative;
+            bottom: 0;
+            left: 0;
+        }
+    }
+}
+
+@media all and(min-width:768px) {
+    .foot {
+        .footerText {
+            font-size: 1em;
+            position: relative;
+            bottom: 0;
+            left: 0;
+        }
+        .footerLogos img {
+            width: 3rem;
+        }
+    }
+}
+
+//
+//

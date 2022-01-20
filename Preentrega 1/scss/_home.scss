@@ -1,0 +1,143 @@
+#seccionPrincipal {
+    background-image: url('../css/assets/fondob4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.title {
+    color: white;
+    height: 200px;
+    padding: 25px;
+    width: 100%;
+    margin: auto;
+    text-align: right;
+    font-style: italic;
+    p {
+        border-bottom: 1px solid white;
+        padding: 10px;
+    }
+}
+
+.title3 {
+    color: white;
+    height: 200px;
+    padding: 55px;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    p {
+        border-top: 1px solid white;
+        padding: 10px;
+    }
+}
+
+.title2 {
+    color: white;
+    height: 200px;
+    padding: 55px;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    p {
+        border-top: 1px solid white;
+        padding: 10px;
+    }
+}
+
+.mas:hover {
+    color: #b2ab8c;
+}
+
+.tarjeta {
+    text-align: left;
+    padding: 1rem;
+    margin: auto;
+    width: 100%;
+    text-align: justify;
+    color: white;
+    border-radius: 5px;
+    .cardImage {
+        width: 50%;
+        padding: 20px;
+    }
+    .cardNosotros {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        .tituloNosotros {
+            margin: auto;
+            width: 50%;
+        }
+        .textoNosotros {
+            margin: auto;
+            margin-top: 50px;
+            width: 50%;
+        }
+    }
+}
+
+#servicios {
+    .box {
+        color: white;
+        text-align: justify;
+        margin: auto;
+        padding: 30px;
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        span {
+            font-size: 2em;
+        }
+        p {
+            font-size: 1em;
+        }
+    }
+}
+
+#activities {
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    .actividades {
+        padding: 10px;
+        ul li {
+            list-style-type: none;
+            font-size: 2em;
+            padding: 20px;
+        }
+    }
+    .card-body {
+        .card-text {
+            font-size: 1.5em;
+            margin: 25px;
+        }
+    }
+    .btn:focus,
+    .btn:active {
+        outline: none !important;
+        box-shadow: none;
+    }
+    .btn-outline-primary {
+        border: 1px solid $col1;
+        color: #fff;
+    }
+    .btn-outline-primary:hover {
+        border: 1px solid $col1;
+        background-color: $col2;
+    }
+    .btn-outline-primary:active {
+        border: none;
+        background-color: $col1 !important;
+        outline: none !important;
+    }
+    .carousel{
+        z-index: 0;
+    }
+}
+
+.boxInfo {
+    display: flex;
+    flex-direction: row;
+}
